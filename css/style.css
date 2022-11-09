@@ -232,6 +232,27 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 	opacity: 0;
     transition: all .5s ease;
 }
+
+.resume {
+	background-color: #ffffff; /* Green */
+	border: none;
+	color: #000000;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+}
+
+#cv{
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#cv :link{
+	text-decoration: none;
+}
+
 .deebo_fn__cv .cv__header .in{
 	background-color: #191919;
 	height: 100%;

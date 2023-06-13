@@ -541,21 +541,21 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 .section_header .content{
 	padding-top: 200px;
 	padding-bottom: 200px;
-	display: -webkit-flex;
+	/* display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-between; */
 	min-height: 90vh;
 	min-height: calc(100vh - 160px); /* 50px spacing from top, 50px from bottom of the window & 30px from top, 30px from bottom of the section. Summary 160px */
 }
 .section_header .left_hero_header{
 	width: 475px;
 	max-width: 40%;
-	padding-right: 80px;
+	padding-right: 115px;
 }
 .section_header .circle{
 	position: relative;
@@ -1333,6 +1333,7 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 }
 .clients_wrapper ul li{
 	margin: 0px;
+	padding: 15px;
     float: left;
     width: 50%;
     border: 1px solid #1d1d1d;
